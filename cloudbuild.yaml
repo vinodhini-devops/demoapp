@@ -54,7 +54,7 @@ substitutions:
 
 #Repository Specific configuration. DevOps can change this settings
     _DEPLOYMENTNAME: demoapp
-    _CONTAINERNAME: demopapp  
+    _CONTAINERNAME: demoapp  
     _REPO_NAME: github_vinodhini-devops_demoapp
     
     # Developers ONLY change
