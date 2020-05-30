@@ -2,10 +2,10 @@ kind: Service
 apiVersion: v1
 metadata:
   #Service name
-  name: node-app-svc
+  name: vino
 spec:
   selector:
-    app: scotch-155622
+    app: vino
   ports:
     - protocol: TCP
       port: 8000
