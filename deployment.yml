@@ -4,14 +4,13 @@ metadata:
   name: vino
   labels:
     #Project ID
-    app: vino
-    
-    spec:
-      #Container details
-      containers:
-        - name: vino
-          image: gcr.io/nice-gate-272207/demoapp/v1.0
+    app: vin0
+spec:
+   #Container details
+   containers:
+      - name: vino
+        image: gcr.io/nice-gate-272207/demoapp/v1.0
           
           #Ports to expose
-          ports:
-          - containerPort: 8000
+        ports:
+        - containerPort: 8000
