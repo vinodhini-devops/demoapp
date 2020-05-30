@@ -1,23 +1,17 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: scotch-dep
+  name: vino
   labels:
     #Project ID
-    app: scotch-155622
-spec:
-  #Run two instances of our application
-  replicas: 2
-  template:
-    metadata:
-      labels:
-        app: scotch-155622
+    app: vino
+    
     spec:
       #Container details
       containers:
-        - name: node-app
+        - name: vino
           image: gcr.io/nice-gate-272207/demoapp/v1.0
-          imagePullPolicy: Always
+          
           #Ports to expose
           ports:
           - containerPort: 8000
