@@ -16,7 +16,7 @@ spec:
       #Container details
       containers:
         - name: node-app
-          image: gcr.io/scotch-155622/node-app:0.0.1
+          image: gcr.io/nice-gate-272207/demopapp/v1.0
           imagePullPolicy: Always
           #Ports to expose
           ports:
